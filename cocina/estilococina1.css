@@ -1,0 +1,13 @@
+body {
+    background-image: url(imagenes/fondococina.png);
+}
+.info {
+	color: #678090;
+}
+.info .info {
+	color: #678090;
+}
+.instrucciones {
+	font-weight: bold;
+	color: #678090;
+}

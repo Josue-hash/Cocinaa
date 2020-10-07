@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Tu receta</title>
+<link href="estilococina.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+#form1 {
+	background-color: #FFF;
+	border: 5px double #A3D3F1;
+	padding: 10px;
+	width: 512px;
+	margin-right: auto;
+	margin-left: auto;
+}
+-->
+</style></head>
+
+<body>
+<h1>Tu receta</h1>
+<p>Si lo deseas, puedes mandarnos tu receta para que la publiquemos:</p>
+<hr />
+<form action="http://www.aulaclic.es/dreamweaver-cs4/ejemplos/sitios/cocina/recibirreceta.php" method="post" name="form1" target="_blank" id="form1">
+  <table width="483" border="0" cellspacing="2">
+    <tr>
+      <td width="120">Tu nombre: </td>
+      <td width="353"><label for="nombre">No hay etiqueta de rótulo</label>
+      <input name="nombre" type="text" id="nombre" maxlength="50" /></td>
+    </tr>
+    <tr>
+      <td>Tu e-mail:</td>
+      <td><label for="email">No hay etiqueta de rótulo</label>
+      <input name="email" type="text" id="email" maxlength="40" /></td>
+    </tr>
+  </table>
+  
+  <hr />
+
+  <table width="529" border="0" cellspacing="2">
+    <tr>
+      <td width="96">Nombre 
+        del plato:</td>
+      <td width="216"><label for="25">No hay etiqueta de rótulo</label>
+      <input type="text" name="25" id="25" /></td>
+      <td width="206">Preparaci&oacute;n:</td>
+    </tr>
+    <tr>
+      <td>Tipo:</td>
+      <td><select name="tipo" id="tipo">
+        <option selected="selected">Plato</option>
+        <option>Postre</option>
+      </select>
+      <label for="tipo"></label></td>
+      <td rowspan="3"><label for="preparacion"></label>
+      <textarea name="preparacion" id="preparacion" cols="20" rows="8"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="2">Ingredientes:</td>
+    </tr>
+    <tr>
+      <td colspan="2"><label for="ingredientes"></label>
+      <textarea name="ingredientes" id="ingredientes" cols="30" rows="5"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="3" align="center"><input type="submit" name="button" id="button" value="Enviar" />
+      <input type="reset" name="button2" id="button2" value="Borrar" /></td>
+    </tr>
+  </table>
+  
+</form>
+</body>
+</html>
